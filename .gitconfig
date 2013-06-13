@@ -1,0 +1,19 @@
+[user]
+    name = Carlos Val
+    email = carlos.val@ibercivis.es
+[alias]
+    co = checkout
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[core]
+    excludesfile = ~/.gitignore
+    editor = mate -w
+    autocrlf = input
+[apply]
+    whitespace = nowarn
+[format]
+    pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+[github]
+    user = chispita
